@@ -112,6 +112,4 @@ func main(){
 	router.PUT("/albums/:id", updateAlbumByID)
 
 	router.Run("localhost:8080")
-
-
 }
